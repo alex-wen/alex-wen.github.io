@@ -1,0 +1,44 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.icon {
+  padding: 18px;
+  margin-bottom: 10px;
+  color: #4d4d4d !important;
+}
+
+.middle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    color: #4d4d4d !important;
+    font-size: 5em;
+    font-weight: 300;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
